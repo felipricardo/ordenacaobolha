@@ -1,3 +1,7 @@
+"""
+Metodo de Pesquisa sequencial
+"""
+
 lista = [9,8,7,5,3]
 
 numprocurado = 70
