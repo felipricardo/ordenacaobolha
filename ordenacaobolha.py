@@ -8,3 +8,8 @@ for i in range(0,4):
     print("i:",i)
     for j in range(i+1,5):
         print("/t j:", j)
+        if lista[i] > lista[j]:
+            aux = lista[i]
+            lista[i] = lista[j]
+            lista[j] = aux
+print(lista)
