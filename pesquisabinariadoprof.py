@@ -3,7 +3,7 @@ lista = [10,20,30,40,50]
 #LISTA DEVE ESTAR ORDENADA
 print("Dgite o numero procurado: ")
 procurado = int(input())
-ini = 3
+ini = 0
 #fim = 4 #ultima casa da lista
 fim = len(lista) - 1
 while ini <= fim:
